@@ -1,0 +1,48 @@
+# --- Data ---
+# Raw/derived datasets are not committed (Kaggle CSVs, TMDb cache, etc.)
+# Fetch instructions live in the README instead.
+data/
+*.csv
+*.zip
+ 
+# TMDb API response cache (regenerable, and may contain a lot of files)
+tmdb_cache/
+*.tmdb_cache/
+ 
+# --- Environment / secrets ---
+.env
+*.env
+tmdb_api_key.txt
+ 
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+*.so
+ 
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+ 
+# --- Conda / venv ---
+.conda/
+venv/
+env/
+ENV/
+ 
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+ 
+# --- Misc ---
+*.log
+.cache/
